@@ -2159,7 +2159,13 @@ input, select, textarea {
 	}
 
 /* Image */
-
+.bkg-img-default {
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
 	.image {
 		border: 0;
 		display: inline-block;
@@ -2204,6 +2210,12 @@ input, select, textarea {
 			display: block;
 			margin: 2.5em 0;
 			width: 100%;
+			position: relative;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-image: url('../../images/about-banner.jpg');
+			height: 10em;
 		}
 
 			.image.main img {
